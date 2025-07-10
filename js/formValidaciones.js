@@ -33,7 +33,7 @@ function validateForm() {
   //Se crea una constante, para guardar el ella la validación del número telefónico.
   const phoneRegex = /^[0-9]{7,}$/;
   if (!phoneRegex.test(telefono)) {
-    showError('phone', 'Ingrese un teléfono válido (ej:   15 2345-6789).');
+    showError('phone', 'Ingrese un teléfono válido (ej: 15 2345-6789).');
     isValid = false;
   } else {
     hideError('phone');
@@ -67,5 +67,14 @@ document.getElementById('btnEnviar').addEventListener('click', function (event) 
   event.preventDefault();
   if (validateForm()) {
     window.location.href = '../pages/envio-exitoso.html';
+  }
+});
+
+//Agregado 10-07-2025
+//Redireccionamiento a la página de inicio.
+document.getElementById('btnVolver').addEventListener('click', function (event) {
+  event.preventDefault();
+  if (!validateForm()) {
+    window.location.href = '../index.html';
   }
 });

@@ -77,14 +77,24 @@ INICIO/PERROS/GATOS/QUIENES SOMOS/CONTACTO.
 -En la parte central, se ubica una descipción, de lo que hace por sus clientes el PET SHOP - CATDOC.
 -En la parte inferior, se encuentra un aviso de derechos de autor y los links hacia las redes sociales: facebook, X, Instagram y Tic Toc.
 
+######            PROYECTO INTEGRADOR FINAL - FORMULARIO DE CONTACTO.            ######
+
 5-Módulo: Página secundaria [CONTACTO].
 -------
-Descripción: -Se ubica un Formulario de Contacto, cuyos campos son: Nombre, Correo Electrónico, Teléfono y mensaje. Más un botón para enviar los datos del formulario (en este caso se agregaron validaciones a los campos por javascript).
+Descripción: -Se agrega un Formulario de Contacto, cuyos campos son: Nombre, Correo Electrónico, Teléfono y mensaje. Más un botón para "Enviar" los datos del formulario (en este caso se agregaron validaciones a los campos por javascript). También se agregó un botón "Volver", para regresar a la pagina de inicio.
 -En la parte inferior, se encuentra un aviso de derechos de autor y los links hacia las redes sociales: facebook, X, Instagram y Tic Toc. 
 
 # Importante.
 
-Desde cada página secundaria, se puede accesder a las demás páginas y viceversa.
+- Desde cada página secundaria, se puede accesder a las demás páginas y viceversa.
+
+- contacto.html es la página del Formulario en la pre-entrega del proyecto.
+- formulario.html es la página del Formulario en la entrega final del proyecto.
+
+
+
+
+
 
 
 

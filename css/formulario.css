@@ -12,28 +12,6 @@ body {
   background-color: #f0f8ff;
 }
 
-.titulo {
-  text-align: center;
-  padding: 24px;
-  background-color: green;
-  color: white;
-}
-
-.mensaje{
-margin: 250px 100px 300px 60px;
-color: white;
-}
-
-.body-color{
-background-color:darkcyan;
-}
-
-.my-form {
-  background-color:black;
-  padding: 15px;
-  text-align: center;  
-}
-
 input, textarea {
   width: 90%;
   max-width: 500px;
@@ -48,6 +26,23 @@ input, textarea {
 textarea {
   min-height: 120px;
   resize: vertical;
+}
+
+.titulo {
+  text-align: center;
+  padding: 24px;
+  background-color: green;
+  color: white;
+}
+
+.body-color{
+background-color:darkcyan;
+}
+
+.my-form {
+  background-color:black;
+  padding: 15px;
+  text-align: center;  
 }
 
 .btn-enviar {
@@ -70,8 +65,6 @@ textarea {
   font-size: 1rem;
   margin-bottom: 8px;     
 }
-
-
 
 .footer {
   text-align: center;

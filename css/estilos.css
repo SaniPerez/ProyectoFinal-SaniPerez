@@ -282,7 +282,7 @@
     /* ===================================================== */
     /*                     MEDIA QUERIES                     */
     /* ===================================================== */
-     @media (max-width: 600px) {
+    @media (max-width: 600px) {
       nav {
         flex-direction: column;
         padding: 1em;
@@ -307,90 +307,21 @@
     @media (max-width: 600px) {
       .hero {
         font-size: 1.5em;
-        height: 200px;       
+        height: 200px;
       }
     }
 
     @media (max-width: 600px) {
       article {
-        flex: 1 1 100%;      
+        flex: 1 1 100%;
       }
     }
 
     @media (max-width: 600px) {
       .imagenes img {
-        width: 100%;      
+        width: 100%;
       }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-    
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
 
     /*Agregado*/
     footer {
@@ -400,8 +331,10 @@
       padding: 1em;
     }
 
-
-
-
-
-    
+    /* ===================================================== */
+    /*                     ENVIO EXITOSO                     */
+    /* ===================================================== */
+    .mensaje {
+      margin: 100px 100px 300px 300px;
+      color: black;
+    }
