@@ -1,0 +1,407 @@
+    /* ===================================================== */
+    /*                 RESET Y ESTILOS GENERALES             */
+    /* ===================================================== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      background-image: url(../media/img/Blue.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* ===================================================== */
+    /*                      ENCABEZADO                       */
+    /* ===================================================== */
+    header {
+      background-color: #03e9d9;
+      padding: 1em;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    .encabezado {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .encabezado img {
+      width: 120px;
+      height: auto;
+      max-width: 100%;
+    }
+
+    .logo-izquierda {
+      margin-left: 2em;
+    }
+
+    .logo-derecha {
+      margin-right: 2em;
+    }
+
+    .titulos {
+      text-align: center;
+    }
+
+    /* ===================================================== */
+    /*                      NAVEGACIÓN                       */
+    /* ===================================================== */
+    nav {
+      background-color: #FF5733;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0.5em;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    /* ===================================================== */
+    /*                        HERO                           */
+    /* ===================================================== */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1601758003122-58e02f2bdf68') no-repeat center center/cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 5px black;
+      margin-bottom: 2em;
+      width: 100%;
+    }
+
+    /* ===================================================== */
+    /*                     SECCIONES                         */
+    /* ===================================================== */
+    main {
+      padding: 2em;
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    .services,
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2em;
+    }
+
+    article {
+      flex: 1 1 300px;
+      background-color: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .services article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    #main-quienes-somos {
+      background-color: aquamarine;
+    }
+
+    .section-parrafo {
+      font-weight: 500px;
+    }
+
+    .parrafo {
+      width: 60%;
+      text-align: justify;
+    }
+
+    /* ===================================================== */
+    /*                    FORMULARIO                         */
+    /* ===================================================== */
+    form {
+      max-width: 500px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #246b45;
+    }
+
+    /* ===================================================== */
+    /*                      IMÁGENES                         */
+    /* ===================================================== */
+    .tamanio-perro {
+      width: 100px;
+      /* Puedes ajustar el tamaño según sea necesario */
+      margin-top: 0px;
+    }
+
+    .tamanio-gato {
+      width: 160px;
+      height: 150px;
+    }
+
+    .tamanio-veterinaria {
+      width: 160px;
+      height: 130px;
+    }
+
+    .imagen {
+      width: 250px;
+      height: 300px;
+      margin-left: 20px;
+    }
+
+    .imagen-con-texto {
+      width: 100%;
+      height: auto;
+      padding: 40px 0;
+      background-color: #f0f0f0;
+    }
+
+    .contenedor {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .imagenes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .imagenes img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .contenedor-imagen-central {
+      position: relative;
+    }
+
+    .texto-encima {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      opacity: 0.6;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    /* ===================================================== */
+    /*                        FOOTER                         */
+    /* ===================================================== */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .footer-parrafo {
+      padding-bottom: 10px;
+    }
+
+    footer a {
+      color: white;
+      margin: 0 10px;
+    }
+
+    footer svg {
+      width: 36px;
+      height: 36px;
+    }
+
+    /* ===================================================== */
+    /*                     MEDIA QUERIES                     */
+    /* ===================================================== */
+     @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        padding: 1em;
+      }
+
+      .hero {
+        font-size: 1.5em;
+      }
+    }
+
+
+    @media (max-width: 600px) {
+      footer {
+        padding: 2em 1em;
+      }
+
+      footer a {
+        margin: 10px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        font-size: 1.5em;
+        height: 200px;       
+      }
+    }
+
+    @media (max-width: 600px) {
+      article {
+        flex: 1 1 100%;      
+      }
+    }
+
+    @media (max-width: 600px) {
+      .imagenes img {
+        width: 100%;      
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    /*Agregado*/
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+
+
+
+
+    
